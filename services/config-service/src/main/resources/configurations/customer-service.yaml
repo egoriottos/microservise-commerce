@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      username: egor
+      password: egor
+      host: localhost
+      port: 27017
+      database: customer
+      authentication-database: admin
+      uri: mongodb://egor:egor@localhost:27017/customer?authSource=admin
+
+server:
+  port: 8090
